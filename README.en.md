@@ -39,7 +39,7 @@ Use the custom domain for the latest recommended version. GitHub Pages, Cloudfla
 | Platform          | URL                                     | Maintenance status         |
 | ----------------- | --------------------------------------- | -------------------------- |
 | **Custom domain** | https://tools.realtime-ai.chat          | ✅ Recommended entry point |
-| GitHub Pages      | https://chicogong.github.io/html-tools/ | ✅ Continuous deployment   |
+| GitHub Pages      | https://yhkj-nb.github.io/html-tools/ | ✅ Continuous deployment   |
 | Cloudflare Pages  | https://htmltools-bkt.pages.dev         | ✅ Continuous deployment   |
 | Vercel            | https://html-tools-jade.vercel.app      | ✅ Continuous deployment   |
 | Render            | https://webutils-uj15.onrender.com      | ⚠️ Historical mirror       |
@@ -64,7 +64,7 @@ Check a tool's page, source, and browser network panel before processing sensiti
 Individual HTML tools can often be opened directly. Use the development server when testing shared assets, routing, or PWA behavior:
 
 ```bash
-git clone https://github.com/chicogong/html-tools.git
+git clone https://github.com/yhkj-nb/html-tools.git
 cd html-tools
 npm ci
 npm run dev
@@ -100,11 +100,11 @@ The current suite checks tool metadata, generated indexes, HTML structure, redir
 
 Bug fixes, accessibility improvements, documentation, translations, and carefully scoped new tools are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md), use the shared design system, and keep network and privacy boundaries explicit.
 
-- [Report a bug](https://github.com/chicogong/html-tools/issues/new?template=bug_report.yml)
-- [Report a security vulnerability privately](https://github.com/chicogong/html-tools/security/advisories/new)
-- [Propose a tool](https://github.com/chicogong/html-tools/issues/new?template=new_tool.yml)
-- [Open a pull request](https://github.com/chicogong/html-tools/pulls)
-- [Join Discussions](https://github.com/chicogong/html-tools/discussions)
+- [Report a bug](https://github.com/yhkj-nb/html-tools/issues/new?template=bug_report.yml)
+- [Report a security vulnerability privately](https://github.com/yhkj-nb/html-tools/security/advisories/new)
+- [Propose a tool](https://github.com/yhkj-nb/html-tools/issues/new?template=new_tool.yml)
+- [Open a pull request](https://github.com/yhkj-nb/html-tools/pulls)
+- [Join Discussions](https://github.com/yhkj-nb/html-tools/discussions)
 
 ## License
 

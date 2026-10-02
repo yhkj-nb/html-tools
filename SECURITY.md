@@ -17,7 +17,7 @@ Security fixes are applied to the current production deployment and the latest r
 
 Do not open a public issue for a suspected vulnerability or include secrets, personal data, access tokens, or an unpatched proof of concept in public discussions.
 
-Use [GitHub private vulnerability reporting](https://github.com/chicogong/html-tools/security/advisories/new). Include, when possible:
+Use [GitHub private vulnerability reporting](https://github.com/yhkj-nb/html-tools/security/advisories/new). Include, when possible:
 
 - the affected tool URL, file, release, or commit;
 - the security impact and who may be affected;
@@ -59,7 +59,7 @@ Usually out of scope:
 
 请勿为疑似漏洞创建公开 Issue，也不要在公开 Discussions 中提交密钥、个人数据、访问令牌或尚未修复的利用细节。
 
-请使用 [GitHub 私密漏洞报告](https://github.com/chicogong/html-tools/security/advisories/new)，并尽量提供：
+请使用 [GitHub 私密漏洞报告](https://github.com/yhkj-nb/html-tools/security/advisories/new)，并尽量提供：
 
 - 受影响的工具 URL、文件、Release 或 Commit；
 - 安全影响与可能受影响的用户；

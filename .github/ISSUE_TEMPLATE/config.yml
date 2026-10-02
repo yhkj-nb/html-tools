@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: 使用问题 / Questions
-    url: https://github.com/chicogong/html-tools/discussions
+    url: https://github.com/yhkj-nb/html-tools/discussions
     about: 使用帮助、想法交流与一般问答请到 Discussions。 Ask usage questions and discuss ideas here.
   - name: 在线体验 / Live site
     url: https://tools.realtime-ai.chat

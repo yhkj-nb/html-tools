@@ -896,7 +896,7 @@ WebUtils 提供开发者日常工作中常用的各类工具：JSON/YAML/XML 格
 
     const footer = `## Optional
 
-- [GitHub 仓库](https://github.com/chicogong/html-tools): 源代码、Issue 反馈、贡献指南
+- [GitHub 仓库](https://github.com/yhkj-nb/html-tools): 源代码、Issue 反馈、贡献指南
 - [完整工具列表](${SITE_URL}/): 首页查看全部 ${toolCount}+ 工具
 `;
 

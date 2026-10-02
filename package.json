@@ -44,11 +44,11 @@
     "vanilla-js",
     "local-first"
   ],
-  "author": "chicogong",
+  "author": "云痕工具",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chicogong/html-tools.git"
+    "url": "https://github.com/yhkj-nb/html-tools.git"
   },
   "homepage": "https://tools.realtime-ai.chat/",
   "dependencies": {
