@@ -1,25 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00f5d4;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#00d9ff;stop-opacity:1" />
+    <linearGradient id="bgY" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#eef3fa" />
     </linearGradient>
+    <linearGradient id="letterY" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0055ff" />
+      <stop offset="100%" stop-color="#00d4ff" />
+    </linearGradient>
+    <filter id="shadowY" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="15" stdDeviation="18" flood-color="#0088ff" flood-opacity="0.3" />
+    </filter>
   </defs>
-  <!-- Dark background -->
-  <rect width="100" height="100" rx="20" fill="#0a0a0f"/>
-  <!-- Simple 3x3 grid representing tool collection -->
-  <g fill="url(#grad)">
-    <!-- Top row -->
-    <rect x="20" y="20" width="16" height="16" rx="3"/>
-    <rect x="42" y="20" width="16" height="16" rx="3"/>
-    <rect x="64" y="20" width="16" height="16" rx="3"/>
-    <!-- Middle row -->
-    <rect x="20" y="42" width="16" height="16" rx="3"/>
-    <rect x="42" y="42" width="16" height="16" rx="3"/>
-    <rect x="64" y="42" width="16" height="16" rx="3"/>
-    <!-- Bottom row -->
-    <rect x="20" y="64" width="16" height="16" rx="3"/>
-    <rect x="42" y="64" width="16" height="16" rx="3"/>
-    <rect x="64" y="64" width="16" height="16" rx="3"/>
+
+  <rect width="100%" height="100%" rx="200" fill="url(#bgY)" />
+
+  <g transform="translate(500, 400)" filter="url(#shadowY)">
+    <!-- 标准 Y 字母：左右对称斜臂 + 竖腿，一笔连贯 -->
+    <path d="
+      M -150,-160
+      L -90,-160
+      L 0,-30
+      L 90,-160
+      L 150,-160
+      L 35,-10
+      L 35,160
+      L -35,160
+      L -35,-10
+      Z
+    " fill="url(#letterY)" />
   </g>
+
+  <text x="500" y="750" font-family="'Microsoft YaHei', 'PingFang SC', 'SimHei', sans-serif" font-size="90" font-weight="900" fill="#0055ff" text-anchor="middle" letter-spacing="12">云痕工具</text>
+  <text x="500" y="830" font-family="'Arial', sans-serif" font-size="26" fill="#0088ff" text-anchor="middle" letter-spacing="10" opacity="0.7">YUNHEN TOOLS</text>
 </svg>
