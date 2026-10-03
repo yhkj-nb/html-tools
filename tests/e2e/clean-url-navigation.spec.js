@@ -65,5 +65,5 @@ test('development server rejects malformed URL encoding without crashing', async
 
   expect(status).toBe(400);
   await page.goto('/');
-  await expect(page).toHaveTitle(/WebUtils/);
+  await expect(page).toHaveTitle(/云痕工具/);
 });

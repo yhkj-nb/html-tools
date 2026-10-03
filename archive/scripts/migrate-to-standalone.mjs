@@ -76,7 +76,7 @@ for (const tool of tools) {
   const softwareApp = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
-    name: `${tool.name} - WebUtils`,
+    name: `${tool.name} - 云痕工具`,
     applicationCategory: 'UtilitiesApplication',
     operatingSystem: 'Any',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }
@@ -85,7 +85,7 @@ for (const tool of tools) {
   const depth = tool.path.split('/').length - 1;
   const relativeRoot = '../'.repeat(depth) || './';
 
-  const title = `${tool.name} - WebUtils`;
+  const title = `${tool.name} - 云痕工具`;
   const description = tool.description || tool.name;
   const keywords = tool.keywords || tool.name;
 
@@ -99,7 +99,7 @@ for (const tool of tools) {
     <!-- SEO Meta Tags -->
     <meta name="description" content="${description}" />
     <meta name="keywords" content="${keywords}" />
-    <meta name="author" content="WebUtils" />
+    <meta name="author" content="云痕工具" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="${SITE_URL}/${tool.path}" />
 
@@ -108,7 +108,7 @@ for (const tool of tools) {
     <meta property="og:description" content="${description}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="${SITE_URL}/${tool.path}" />
-    <meta property="og:site_name" content="WebUtils" />
+    <meta property="og:site_name" content="云痕工具" />
     <meta property="og:locale" content="zh_CN" />
     <meta property="og:image" content="${SITE_URL}/social-preview.png" />
     <meta property="og:image:width" content="1280" />

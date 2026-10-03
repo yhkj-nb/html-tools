@@ -122,7 +122,7 @@ for (const tool of tools) {
   const softwareApp = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
-    name: `${tool.name} - WebUtils`,
+    name: `${tool.name} - 云痕工具`,
     applicationCategory: 'UtilitiesApplication',
     operatingSystem: 'Any',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }

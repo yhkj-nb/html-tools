@@ -67,12 +67,12 @@ test('JSON formatter exposes labeled controls and formats input', async ({ page 
   const errors = collectPageErrors(page);
 
   await page.goto('/tools/dev/json-formatter.html');
-  await page.getByLabel('输入').fill('{"name":"WebUtils","active":true}');
+  await page.getByLabel('输入').fill('{"name":"云痕工具","active":true}');
   await page.getByLabel('缩进:').selectOption('4');
   await page.getByRole('button', { name: '格式化' }).click();
 
   await expect(page.getByLabel('输出')).toHaveValue(
-    '{\n    "name": "WebUtils",\n    "active": true\n}'
+    '{\n    "name": "云痕工具",\n    "active": true\n}'
   );
   await expect(page.getByRole('status')).toHaveText('格式化成功');
 
@@ -123,13 +123,13 @@ test('Base64 tool encodes Unicode text and local files', async ({ page }) => {
 
   await page.goto('/tools/dev/base64.html');
   const input = page.getByLabel('输入');
-  await input.fill('你好，WebUtils');
+  await input.fill('你好，云痕工具');
   await page.getByRole('button', { name: '编码 (Text → Base64)' }).click();
   await expect(page.getByLabel('输出')).toHaveValue('5L2g5aW977yMV2ViVXRpbHM=');
 
   await input.fill('5L2g5aW977yMV2ViVXRpbHM=');
   await page.getByRole('button', { name: '解码 (Base64 → Text)' }).click();
-  await expect(page.getByLabel('输出')).toHaveValue('你好，WebUtils');
+  await expect(page.getByLabel('输出')).toHaveValue('你好，云痕工具');
 
   const bomText = '\uFEFFhello';
   await input.fill(bomText);

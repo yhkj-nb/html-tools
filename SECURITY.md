@@ -31,7 +31,7 @@ We aim to acknowledge a report within 7 calendar days and provide an initial ass
 
 Useful reports include:
 
-- script injection or unsafe HTML execution caused by WebUtils code;
+- script injection or unsafe HTML execution caused by 云痕工具 code;
 - unintended disclosure or transmission of input that is documented as local;
 - unsafe external requests, permission handling, or standalone-export behavior;
 - compromised dependencies, release archives, checksums, or repository automation;
@@ -71,6 +71,6 @@ Usually out of scope:
 
 ### 适用范围
 
-欢迎报告：WebUtils 代码导致的脚本注入、标称本地处理的输入被意外传输、不安全的外部请求或权限处理、standalone 导出边界问题、依赖/归档/校验和仓库自动化供应链问题，以及公开仓库中的凭据或敏感个人路径。
+欢迎报告：云痕工具 代码导致的脚本注入、标称本地处理的输入被意外传输、不安全的外部请求或权限处理、standalone 导出边界问题、依赖/归档/校验和仓库自动化供应链问题，以及公开仓库中的凭据或敏感个人路径。
 
 通常不在范围内：完全由外部 API、CDN、浏览器或扩展控制的行为；需要用户自行粘贴并执行代码且没有突破信任边界的 self-XSS；第三方服务的可用性或限流；不支持的浏览器；没有实际安全影响的理论问题。

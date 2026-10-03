@@ -1,10 +1,10 @@
-# WebUtils Product Direction
+# 云痕工具 Product Direction
 
-WebUtils is not just a website with many tools. It is a collection of local-first HTML tools that can be opened online, shared as URLs, downloaded for offline use, and improved by contributors with minimal project knowledge.
+云痕工具 is not just a website with many tools. It is a collection of local-first HTML tools that can be opened online, shared as URLs, downloaded for offline use, and improved by contributors with minimal project knowledge.
 
 ## Positioning
 
-WebUtils should become a trusted local-first toolbox for small, high-frequency tasks.
+云痕工具 should become a trusted local-first toolbox for small, high-frequency tasks.
 
 Users should be able to solve a task without installing software, creating an account, uploading private data, or waiting for a heavy app to load.
 
@@ -114,7 +114,7 @@ Every registered tool should have:
 
 ## Non-Goals
 
-- Do not turn WebUtils into a heavy SaaS product that requires accounts or server-side storage.
+- Do not turn 云痕工具 into a heavy SaaS product that requires accounts or server-side storage.
 - Do not duplicate shared chrome and base CSS into every source HTML file.
 - Do not optimize only for tool count.
 - Do not make simple tools depend on external services unless the tool category requires it.
@@ -122,4 +122,4 @@ Every registered tool should have:
 
 ## North Star
 
-When users have a small task, they should trust WebUtils enough to open it first, solve the task locally, and keep or share the tool as a plain HTML page.
+When users have a small task, they should trust 云痕工具 enough to open it first, solve the task locally, and keep or share the tool as a plain HTML page.

@@ -54,7 +54,7 @@ test('standalone HTML 内联本地共享 CSS/JS', () => {
   const bad = [];
   for (const toolPath of toolPaths) {
     const html = exportedHtml(toolPath);
-    if (!html.includes('WebUtils Standalone Tool'))
+    if (!html.includes('云痕工具 Standalone Tool'))
       bad.push(`${toolPath}: 缺少 standalone 文件头说明`);
     if (!html.includes('data-standalone-inlined="assets/css/tool-base.css"')) {
       bad.push(`${toolPath}: 未内联 tool-base.css`);

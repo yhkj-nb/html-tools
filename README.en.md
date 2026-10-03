@@ -1,16 +1,16 @@
-# WebUtils
+# 云痕工具
 
 [简体中文](README.md) | [English](README.en.md)
 
 > 1,088+ open-source browser tools. Static-first, privacy-conscious, offline-ready, and portable as standalone HTML.
 
-[Use WebUtils online](https://tools.realtime-ai.chat) · [Browse all tools](https://tools.realtime-ai.chat) · [Contribute](CONTRIBUTING.md)
+[Use 云痕工具 online](https://tools.realtime-ai.chat) · [Browse all tools](https://tools.realtime-ai.chat) · [Contribute](CONTRIBUTING.md)
 
-![WebUtils dark-mode homepage](screenshots/homepage-dark.png)
+![云痕工具 dark-mode homepage](screenshots/homepage-dark.png)
 
-## Why WebUtils?
+## Why 云痕工具?
 
-WebUtils is a large collection of focused utilities for developers, writers, designers, and everyday workflows. Most formatting, encoding, calculating, and generation tasks run inside the current browser page. No account is required, there are no ads, and the site does not include first-party analytics scripts.
+云痕工具 is a large collection of focused utilities for developers, writers, designers, and everyday workflows. Most formatting, encoding, calculating, and generation tasks run inside the current browser page. No account is required, there are no ads, and the site does not include first-party analytics scripts.
 
 The project is designed around four practical promises:
 
@@ -48,7 +48,7 @@ Use the custom domain for the latest recommended version. GitHub Pages, Cloudfla
 
 ## Privacy and network boundaries
 
-“Browser-based” does not automatically mean “never connects to the network.” WebUtils documents the distinction:
+“Browser-based” does not automatically mean “never connects to the network.” 云痕工具 documents the distinction:
 
 | Tool type                 | Typical behavior                                         | Offline expectation                                   |
 | ------------------------- | -------------------------------------------------------- | ----------------------------------------------------- |
@@ -108,4 +108,4 @@ Bug fixes, accessibility improvements, documentation, translations, and carefull
 
 ## License
 
-WebUtils is available under the [MIT License](LICENSE). Third-party libraries, APIs, and external resources remain subject to their own licenses and terms.
+云痕工具 is available under the [MIT License](LICENSE). Third-party libraries, APIs, and external resources remain subject to their own licenses and terms.

@@ -1,4 +1,4 @@
-# robots.txt for WebUtils
+# robots.txt for 云痕工具
 # https://tools.realtime-ai.chat/
 
 User-agent: *

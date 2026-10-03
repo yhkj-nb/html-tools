@@ -1,4 +1,4 @@
-// Service Worker for WebUtils PWA
+// Service Worker for 云痕工具 PWA
 const CACHE_NAME = 'webutils-v4';
 const OFFLINE_URL = './offline.html';
 

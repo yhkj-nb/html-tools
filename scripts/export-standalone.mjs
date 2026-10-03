@@ -104,7 +104,7 @@ function inlineLocalScripts(html, htmlPath) {
 
 function addStandaloneBanner(html, toolPath) {
   const generatedAt = new Date().toISOString();
-  const banner = `<!--\n  WebUtils Standalone Tool\n  Source: https://tools.realtime-ai.chat/${toolPath}\n  Generated: ${generatedAt}\n  Privacy: This tool is designed to run locally in your browser.\n  Note: Local shared CSS/JS dependencies are inlined. External CDN resources, if any, remain as external links.\n-->`;
+  const banner = `<!--\n  云痕工具 Standalone Tool\n  Source: https://tools.realtime-ai.chat/${toolPath}\n  Generated: ${generatedAt}\n  Privacy: This tool is designed to run locally in your browser.\n  Note: Local shared CSS/JS dependencies are inlined. External CDN resources, if any, remain as external links.\n-->`;
 
   return html.replace(/^<!doctype html>\s*/i, (doctype) => `${doctype}\n${banner}\n`);
 }

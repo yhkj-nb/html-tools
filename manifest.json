@@ -1,6 +1,6 @@
 {
-  "name": "WebUtils - 纯前端工具集",
-  "short_name": "WebUtils",
+  "name": "云痕工具 - 纯前端工具集",
+  "short_name": "云痕工具",
   "description": "1088+ 个浏览器端实用工具。多数工具本地处理；网络类工具会连接用户选择的服务，离线能力取决于工具依赖。",
   "start_url": "/",
   "scope": "/",
@@ -43,7 +43,7 @@
       "sizes": "1280x640",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "WebUtils 工具集主页"
+      "label": "云痕工具 工具集主页"
     }
   ],
   "shortcuts": [

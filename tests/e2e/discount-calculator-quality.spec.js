@@ -12,7 +12,7 @@ test('discount calculator uses Chinese discount notation and calculates the fina
   await page.setViewportSize({ width: 320, height: 568 });
   await page.goto('/tools/calculator/discount-calculator.html');
 
-  await expect(page).toHaveTitle('折扣计算器 - 在线计算折后价与优惠金额 | WebUtils');
+  await expect(page).toHaveTitle('折扣计算器 - 在线计算折后价与优惠金额 | 云痕工具');
   await expect(page.getByRole('main')).toHaveCount(1);
   await expect(page.getByRole('heading', { name: '🏷️ 在线折扣计算器' })).toBeVisible();
 

@@ -1,10 +1,10 @@
 # CLAUDE.md
 
-本文件说明 WebUtils 仓库的工程约定。事实以当前 `package.json`、`tools.json` 和 CI 工作流为准。
+本文件说明 云痕工具 仓库的工程约定。事实以当前 `package.json`、`tools.json` 和 CI 工作流为准。
 
 ## 项目概述
 
-WebUtils 是静态优先的浏览器工具集。每个工具以独立 HTML 页面交付，源码共享 `tool-base.css` 和 `tool-chrome.js`，发布时通过构建脚本生成 `dist/`。
+云痕工具 是静态优先的浏览器工具集。每个工具以独立 HTML 页面交付，源码共享 `tool-base.css` 和 `tool-chrome.js`，发布时通过构建脚本生成 `dist/`。
 
 多数格式化、计算和生成任务在浏览器本地处理；网络客户端、公共 API、CDN、字体和图片等功能会连接页面标明或用户选择的第三方。不要对全部工具统一承诺“完全离线”或“绝不联网”。
 

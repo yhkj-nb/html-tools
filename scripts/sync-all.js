@@ -323,7 +323,7 @@ function categoryPageHtml(catId, cat, catTools) {
   const icon = cat.icon || '📦';
   const count = catTools.length;
   const canonical = publicUrl(`tools/${catId}/index.html`);
-  const title = `${name} - 在线工具合集（${count}个）| WebUtils`;
+  const title = `${name} - 在线工具合集（${count}个）| 云痕工具`;
 
   const breadcrumb = {
     '@context': 'https://schema.org',
@@ -373,14 +373,14 @@ function categoryPageHtml(catId, cat, catTools) {
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeAttr(intro)}" />
     <meta name="keywords" content="${escapeAttr(name + ',在线工具,免费工具,' + name + '大全')}" />
-    <meta name="author" content="WebUtils" />
+    <meta name="author" content="云痕工具" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="${canonical}" />
     <meta property="og:title" content="${escapeAttr(title)}" />
     <meta property="og:description" content="${escapeAttr(intro)}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="${canonical}" />
-    <meta property="og:site_name" content="WebUtils" />
+    <meta property="og:site_name" content="云痕工具" />
     <meta property="og:locale" content="zh_CN" />
     <meta property="og:image" content="${SITE_URL}/social-preview.png" />
     <meta name="twitter:card" content="summary" />
@@ -423,7 +423,7 @@ ${toJsonLd(collection)}
 ${cards}
       </section>
       <footer class="cat-footer">
-        <a href="../../" data-file-href="../../index.html">← 返回 WebUtils 全部工具</a>
+        <a href="../../" data-file-href="../../index.html">← 返回 云痕工具 全部工具</a>
       </footer>
     </main>
   </body>
@@ -862,16 +862,16 @@ function updateLlmsTxt(toolCount, categories, groupedTools, sortedCategories) {
   try {
     const TOP_PER_CATEGORY = 6;
 
-    const header = `# WebUtils
+    const header = `# 云痕工具
 
-> WebUtils 包含 ${toolCount}+ 个浏览器端工具。多数格式化、计算和生成工具在本地页面处理输入；HTTP、REST、WebSocket、DNS/IP 等网络工具会连接用户选择或页面标明的第三方服务。
+> 云痕工具 包含 ${toolCount}+ 个浏览器端工具。多数格式化、计算和生成工具在本地页面处理输入；HTTP、REST、WebSocket、DNS/IP 等网络工具会连接用户选择或页面标明的第三方服务。
 
-WebUtils 提供开发者日常工作中常用的各类工具：JSON/YAML/XML 格式化与转换、Base64/URL/Unicode 编解码、时间戳与时区转换、二维码生成、图片压缩、正则表达式测试、哈希计算等。
+云痕工具 提供开发者日常工作中常用的各类工具：JSON/YAML/XML 格式化与转换、Base64/URL/Unicode 编解码、时间戳与时区转换、二维码生成、图片压缩、正则表达式测试、哈希计算等。
 
 技术特点：
 
 - 静态优先：工具以独立 HTML 页面为入口，源码无需前端框架运行时
-- 本地优先：本地计算工具不把输入发送给 WebUtils 后端
+- 本地优先：本地计算工具不把输入发送给 云痕工具 后端
 - 网络透明：网络工具和外部资源会连接第三方，不能承诺完全离线
 - 可移植：standalone 导出会内联仓库内共享资源，外部依赖仍保持外链
 `;
