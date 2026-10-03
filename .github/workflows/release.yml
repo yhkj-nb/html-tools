@@ -131,9 +131,9 @@ jobs:
           TOOL_COUNT: ${{ steps.tools.outputs.COUNT }}
         with:
           tag_name: ${{ steps.version.outputs.tag }}
-          name: WebUtils ${{ steps.version.outputs.version }}
+          name: 云痕工具 ${{ steps.version.outputs.version }}
           body: |
-            ## WebUtils ${{ steps.version.outputs.version }}
+            ## 云痕工具 ${{ steps.version.outputs.version }}
 
             **${{ steps.tools.outputs.COUNT }}+ 本地优先的浏览器工具集**
 
