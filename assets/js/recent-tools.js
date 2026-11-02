@@ -109,7 +109,11 @@
 
     var icon = document.createElement('span');
     icon.className = 'cat-icon';
-    icon.textContent = '🕐';
+    var iconImg = document.createElement('img');
+    iconImg.src = '/assets/icons/recent.svg';
+    iconImg.alt = '最近';
+    iconImg.className = 'cat-icon-img';
+    icon.appendChild(iconImg);
 
     var label = document.createElement('span');
     label.textContent = '最近';

@@ -992,3 +992,19 @@ footer a:hover {
     gap: 6px;
   }
 }
+
+/* 工具/类目图标改为 SVG <img> 后的尺寸适配 */
+.tool-icon-img {
+  width: 26px;
+  height: 26px;
+  display: block;
+  object-fit: contain;
+  pointer-events: none;
+}
+.cat-icon-img {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
+}

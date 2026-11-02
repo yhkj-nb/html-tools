@@ -194,7 +194,14 @@ function renderCategories() {
 
     const icon = document.createElement('span');
     icon.className = 'cat-icon';
-    icon.textContent = cat.icon;
+    if (cat.icon) {
+      const iconImg = document.createElement('img');
+      iconImg.src = cat.icon;
+      iconImg.alt = cat.name || '';
+      iconImg.loading = 'lazy';
+      iconImg.className = 'cat-icon-img';
+      icon.appendChild(iconImg);
+    }
     btn.appendChild(icon);
 
     const span = document.createElement('span');
@@ -257,7 +264,14 @@ function createToolCard(tool, index) {
 
   const iconDiv = document.createElement('div');
   iconDiv.className = 'tool-icon';
-  iconDiv.textContent = tool.icon;
+  if (tool.icon) {
+    const iconImg = document.createElement('img');
+    iconImg.src = tool.icon;
+    iconImg.alt = tool.name || '';
+    iconImg.loading = 'lazy';
+    iconImg.className = 'tool-icon-img';
+    iconDiv.appendChild(iconImg);
+  }
 
   const h3 = document.createElement('h3');
   h3.textContent = tool.name;
