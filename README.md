@@ -5,7 +5,7 @@
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tools](https://img.shields.io/badge/Tools-1088+-blue.svg)](https://tools.realtime-ai.chat)
+[![Tools](https://img.shields.io/badge/Tools-1088+-blue.svg)](https://yhkj-nb.github.io/html-tools)
 [![Lint](https://github.com/yhkj-nb/html-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/yhkj-nb/html-tools/actions/workflows/lint.yml)
 [![Deploy](https://github.com/yhkj-nb/html-tools/actions/workflows/deploy.yml/badge.svg)](https://github.com/yhkj-nb/html-tools/actions/workflows/deploy.yml)
 [![Vercel](https://img.shields.io/badge/Vercel-deployed-black?logo=vercel)](https://html-tools-jade.vercel.app)
@@ -22,7 +22,7 @@
 
 一个完全开源的浏览器端工具集。站点无需注册、无广告，也不接入第一方分析脚本；具体工具是否访问网络、能否完全离线，取决于该工具的功能和依赖。
 
-[**🌐 立即体验**](https://tools.realtime-ai.chat) | [工具列表](#工具列表-1088-个) | [贡献指南](#贡献指南) | [添加新工具](#添加新工具)
+[**🌐 立即体验**](https://yhkj-nb.github.io/html-tools) | [工具列表](#工具列表-1088-个) | [贡献指南](#贡献指南) | [添加新工具](#添加新工具)
 
 </div>
 
@@ -107,7 +107,7 @@
 
 | 平台              | 链接                                    | 维护状态    |
 | ----------------- | --------------------------------------- | ----------- |
-| **🌐 自定义域名** | https://tools.realtime-ai.chat          | ✅ 推荐入口 |
+| **🌐 自定义域名** | https://yhkj-nb.github.io/html-tools          | ✅ 推荐入口 |
 | GitHub Pages      | https://yhkj-nb.github.io/html-tools/ | ✅ 持续部署 |
 | Cloudflare Pages  | https://htmltools-bkt.pages.dev         | ✅ 持续部署 |
 

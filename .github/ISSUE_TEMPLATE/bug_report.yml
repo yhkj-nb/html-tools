@@ -14,7 +14,7 @@ body:
     attributes:
       label: 工具链接 / Tool URL
       description: 请粘贴出现问题的完整 URL。
-      placeholder: 'https://tools.realtime-ai.chat/tools/dev/json-formatter.html'
+      placeholder: 'https://yhkj-nb.github.io/html-tools/tools/dev/json-formatter.html'
     validations:
       required: true
 

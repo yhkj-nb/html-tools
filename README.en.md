@@ -4,7 +4,7 @@
 
 > 1,088+ open-source browser tools. Static-first, privacy-conscious, offline-ready, and portable as standalone HTML.
 
-[Use 云痕工具 online](https://tools.realtime-ai.chat) · [Browse all tools](https://tools.realtime-ai.chat) · [Contribute](CONTRIBUTING.md)
+[Use 云痕工具 online](https://yhkj-nb.github.io/html-tools) · [Browse all tools](https://yhkj-nb.github.io/html-tools) · [Contribute](CONTRIBUTING.md)
 
 ![云痕工具 dark-mode homepage](screenshots/homepage-dark.png)
 
@@ -23,14 +23,14 @@ The project is designed around four practical promises:
 
 | Tool                                                                                      | What it does                                             |
 | ----------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| [JSON Formatter](https://tools.realtime-ai.chat/tools/dev/json-formatter.html)            | Format, minify, validate, sort, and inspect JSON locally |
-| [Timestamp Converter](https://tools.realtime-ai.chat/tools/time/timestamp.html)           | Convert Unix timestamps and local date-time values       |
-| [URL Codec](https://tools.realtime-ai.chat/tools/dev/url-codec.html)                      | Encode, decode, and inspect URL components               |
-| [Base64 Codec](https://tools.realtime-ai.chat/tools/dev/base64.html)                      | Encode and decode Unicode text or local files            |
-| [QR Code Generator](https://tools.realtime-ai.chat/tools/generator/qrcode-generator.html) | Generate customizable QR codes in the browser            |
-| [Image Compressor](https://tools.realtime-ai.chat/tools/media/image-compressor.html)      | Compress images locally with visual controls             |
+| [JSON Formatter](https://yhkj-nb.github.io/html-tools/tools/dev/json-formatter.html)            | Format, minify, validate, sort, and inspect JSON locally |
+| [Timestamp Converter](https://yhkj-nb.github.io/html-tools/tools/time/timestamp.html)           | Convert Unix timestamps and local date-time values       |
+| [URL Codec](https://yhkj-nb.github.io/html-tools/tools/dev/url-codec.html)                      | Encode, decode, and inspect URL components               |
+| [Base64 Codec](https://yhkj-nb.github.io/html-tools/tools/dev/base64.html)                      | Encode and decode Unicode text or local files            |
+| [QR Code Generator](https://yhkj-nb.github.io/html-tools/tools/generator/qrcode-generator.html) | Generate customizable QR codes in the browser            |
+| [Image Compressor](https://yhkj-nb.github.io/html-tools/tools/media/image-compressor.html)      | Compress images locally with visual controls             |
 
-Explore all 35 categories through [the live tool index](https://tools.realtime-ai.chat).
+Explore all 35 categories through [the live tool index](https://yhkj-nb.github.io/html-tools).
 
 ## Hosted versions
 
@@ -38,7 +38,7 @@ Use the custom domain for the latest recommended version. GitHub Pages, Cloudfla
 
 | Platform          | URL                                     | Maintenance status         |
 | ----------------- | --------------------------------------- | -------------------------- |
-| **Custom domain** | https://tools.realtime-ai.chat          | ✅ Recommended entry point |
+| **Custom domain** | https://yhkj-nb.github.io/html-tools          | ✅ Recommended entry point |
 | GitHub Pages      | https://yhkj-nb.github.io/html-tools/ | ✅ Continuous deployment   |
 | Cloudflare Pages  | https://htmltools-bkt.pages.dev         | ✅ Continuous deployment   |
 | Vercel            | https://html-tools-jade.vercel.app      | ✅ Continuous deployment   |

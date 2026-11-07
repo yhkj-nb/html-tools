@@ -74,7 +74,7 @@ function runToolChrome({ href, canonicalHref, stored, categoryPage = false }) {
 
   const document = {
     documentElement,
-    currentScript: { src: 'https://tools.realtime-ai.chat/assets/js/tool-chrome.js' },
+    currentScript: { src: 'https://yhkj-nb.github.io/html-tools/assets/js/tool-chrome.js' },
     readyState: 'loading',
     head: createElement('head'),
     body: createElement('body'),
@@ -137,8 +137,8 @@ test('最近记录倒序、去重并限制为 20 个', () => {
   existing.splice(8, 0, current);
 
   const stored = runToolChrome({
-    href: 'https://tools.realtime-ai.chat/tools/dev/json-formatter.html',
-    canonicalHref: 'https://tools.realtime-ai.chat/tools/dev/json-formatter.html',
+    href: 'https://yhkj-nb.github.io/html-tools/tools/dev/json-formatter.html',
+    canonicalHref: 'https://yhkj-nb.github.io/html-tools/tools/dev/json-formatter.html',
     stored: JSON.stringify(existing)
   });
 
@@ -150,8 +150,8 @@ test('最近记录倒序、去重并限制为 20 个', () => {
 
 test('损坏的 localStorage 内容不会阻断记录', () => {
   const stored = runToolChrome({
-    href: 'https://tools.realtime-ai.chat/tools/dev/base64.html',
-    canonicalHref: 'https://tools.realtime-ai.chat/tools/dev/base64.html',
+    href: 'https://yhkj-nb.github.io/html-tools/tools/dev/base64.html',
+    canonicalHref: 'https://yhkj-nb.github.io/html-tools/tools/dev/base64.html',
     stored: '{not-json'
   });
 
@@ -160,7 +160,7 @@ test('损坏的 localStorage 内容不会阻断记录', () => {
 
 test('无 .html 的工具地址会归一化为登记路径', () => {
   const stored = runToolChrome({
-    href: 'https://tools.realtime-ai.chat/tools/dev/json-formatter',
+    href: 'https://yhkj-nb.github.io/html-tools/tools/dev/json-formatter',
     canonicalHref: null
   });
 
@@ -170,8 +170,8 @@ test('无 .html 的工具地址会归一化为登记路径', () => {
 test('分类落地页不会进入最近使用', () => {
   const original = JSON.stringify(['tools/dev/base64.html']);
   const stored = runToolChrome({
-    href: 'https://tools.realtime-ai.chat/tools/dev/index.html',
-    canonicalHref: 'https://tools.realtime-ai.chat/tools/dev/index.html',
+    href: 'https://yhkj-nb.github.io/html-tools/tools/dev/index.html',
+    canonicalHref: 'https://yhkj-nb.github.io/html-tools/tools/dev/index.html',
     stored: original,
     categoryPage: true
   });

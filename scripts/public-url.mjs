@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://tools.realtime-ai.chat';
+export const SITE_URL = 'https://yhkj-nb.github.io/html-tools';
 
 /** Convert a repository HTML file path to its final clean URL pathname. */
 export function publicPath(filePath) {

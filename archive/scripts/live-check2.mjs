@@ -1,10 +1,10 @@
 import puppeteer from 'puppeteer';
 
 const URLS_TO_TEST = [
-  'https://tools.realtime-ai.chat/',
-  'https://tools.realtime-ai.chat/tools/dev/base64.html',
-  'https://tools.realtime-ai.chat/tools/text/text-diff.html',
-  'https://tools.realtime-ai.chat/tools/office/letter-template.html'
+  'https://yhkj-nb.github.io/html-tools/',
+  'https://yhkj-nb.github.io/html-tools/tools/dev/base64.html',
+  'https://yhkj-nb.github.io/html-tools/tools/text/text-diff.html',
+  'https://yhkj-nb.github.io/html-tools/tools/office/letter-template.html'
 ];
 
 async function checkUrl(page, url) {
@@ -39,7 +39,7 @@ async function checkUrl(page, url) {
 
     // Check if tool-chrome.js loaded successfully and injected the FAB
     // For root /, the logic might be different, but for tools it should have tcChrome
-    const isRoot = url === 'https://tools.realtime-ai.chat/';
+    const isRoot = url === 'https://yhkj-nb.github.io/html-tools/';
     if (!isRoot) {
       const hasFAB = (await page.$('#tcChrome')) !== null;
       if (!hasFAB) {

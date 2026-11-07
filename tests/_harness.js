@@ -15,7 +15,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT = path.join(__dirname, '..');
 
 /** 站点域名（不带尾部斜杠），与 sitemap / canonical / og:url 保持一致 */
-export const SITE = 'https://tools.realtime-ai.chat';
+export const SITE = 'https://yhkj-nb.github.io/html-tools';
 
 // ───────────────────────── 测试框架 ─────────────────────────
 

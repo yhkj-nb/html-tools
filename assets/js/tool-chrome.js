@@ -202,7 +202,7 @@
   function hostSupportsCleanUrls() {
     var hostname = (window.location.hostname || '').toLowerCase();
     return (
-      hostname === 'tools.realtime-ai.chat' ||
+      hostname === 'yhkj-nb.github.io/html-tools' ||
       hostname === 'localhost' ||
       hostname === '127.0.0.1' ||
       hostname.endsWith('.vercel.app') ||

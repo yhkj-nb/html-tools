@@ -160,7 +160,7 @@ jobs:
 
             ---
 
-            [在线文档](https://github.com/chicogong/html-tools#readme) | [在线体验](https://tools.realtime-ai.chat)
+            [在线文档](https://github.com/chicogong/html-tools#readme) | [在线体验](https://yhkj-nb.github.io/html-tools)
           files: |
             webutils-${{ steps.version.outputs.version }}.zip
             webutils-${{ steps.version.outputs.version }}.tar.gz

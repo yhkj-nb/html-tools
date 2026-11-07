@@ -1,8 +1,8 @@
 # robots.txt for 云痕工具
-# https://tools.realtime-ai.chat/
+# https://yhkj-nb.github.io/html-tools/
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://tools.realtime-ai.chat/sitemap.xml
+Sitemap: https://yhkj-nb.github.io/html-tools/sitemap.xml

@@ -78,7 +78,7 @@ test('工具页源代码中的站内链接使用最终 clean URL', () => {
     $('a[href]').each((_index, anchor) => {
       const href = $(anchor).attr('href');
       const isInternal =
-        !/^(?:[a-z]+:|\/\/)/i.test(href) || href.startsWith('https://tools.realtime-ai.chat/');
+        !/^(?:[a-z]+:|\/\/)/i.test(href) || href.startsWith('https://yhkj-nb.github.io/html-tools/');
       if (isInternal && /(?:^|\/)index\.html(?:[?#]|$)|\.html(?:[?#]|$)/i.test(href)) {
         bad.push(`#${tool.id} ${tool.path}: ${href}`);
       }

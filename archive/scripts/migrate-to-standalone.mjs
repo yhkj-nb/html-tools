@@ -12,7 +12,7 @@ const TOOLS_JSON = path.join(ROOT_DIR, 'tools.json');
 const toolsData = JSON.parse(fs.readFileSync(TOOLS_JSON, 'utf8'));
 const categories = toolsData.categories;
 const tools = Object.values(toolsData.tools);
-const SITE_URL = 'https://tools.realtime-ai.chat';
+const SITE_URL = 'https://yhkj-nb.github.io/html-tools';
 
 let successCount = 0;
 let failCount = 0;

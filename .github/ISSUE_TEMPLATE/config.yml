@@ -4,5 +4,5 @@ contact_links:
     url: https://github.com/yhkj-nb/html-tools/discussions
     about: 使用帮助、想法交流与一般问答请到 Discussions。 Ask usage questions and discuss ideas here.
   - name: 在线体验 / Live site
-    url: https://tools.realtime-ai.chat
+    url: https://yhkj-nb.github.io/html-tools
     about: 在提交问题前先尝试最新在线版本。 Try the latest deployed version before filing an issue.

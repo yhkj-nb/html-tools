@@ -50,7 +50,7 @@
     "type": "git",
     "url": "https://github.com/yhkj-nb/html-tools.git"
   },
-  "homepage": "https://tools.realtime-ai.chat/",
+  "homepage": "https://yhkj-nb.github.io/html-tools/",
   "dependencies": {
     "cheerio": "^1.2.0",
     "ejs": "^6.0.1"

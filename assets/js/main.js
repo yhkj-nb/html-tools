@@ -225,7 +225,7 @@ function renderCategories() {
 // ==================== 渲染工具卡片 ====================
 let renderedCount = 0;
 
-const CLEAN_URL_HOSTS = new Set(['tools.realtime-ai.chat', 'localhost', '127.0.0.1']);
+const CLEAN_URL_HOSTS = new Set(['yhkj-nb.github.io/html-tools', 'localhost', '127.0.0.1']);
 const CLEAN_URL_HOST_SUFFIXES = ['.vercel.app', '.netlify.app', '.pages.dev'];
 
 function hostSupportsCleanUrls() {
